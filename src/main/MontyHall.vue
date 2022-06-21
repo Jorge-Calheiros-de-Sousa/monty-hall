@@ -89,10 +89,10 @@ export default {
   cursor: pointer;
 }
 .game {
-  display: grid;
-  grid-template-columns: repeat(8, 200px);
-  justify-content: space-between;
-  align-content: center;
-  grid-gap: 10px;
+  justify-content: space-around;
+  align-self: stretch;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 10px;
 }
 </style>
